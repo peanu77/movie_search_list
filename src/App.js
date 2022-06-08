@@ -6,7 +6,10 @@ import "./App.css";
 import SearchIcon from "./utils/search.svg";
 
 
-const API_URL = "http://www.omdbapi.com?apikey=d9abc54a";
+// To create API_URL goto 
+// omdbapi.com/apikey.aspx
+// and create your account, after creating and validating your account paste your key to the apikey below
+const API_URL = "http://www.omdbapi.com?apikey=";
 
 const App = () => {
   const [movies, setMovies] = useState([]);
@@ -22,7 +25,7 @@ const App = () => {
   useEffect(() => {
     searchMovies("");
   }, []);
-  
+
   return (
     <div className="app">
       <h1>Movie Search List</h1>
