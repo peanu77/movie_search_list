@@ -5,12 +5,12 @@ Movie Search List is a simple project built using React and omdbapi
 ## Installation
 - Install nodejs [nodejs](https://nodejs.org/en/)
 
-Run on your terminal :
+Clone the project 
 ```bash
-npx create-react-project movie_web_app
+git clone https://github.com/peanu77/movie_search_list
 ```
 
-After creating the project make sure to open the project using the code editor of your choice, then run
+After cloning the project make sure to open the project using the code editor of your choice, then run
 ```bash
 npm install
 ```
